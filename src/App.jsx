@@ -17,7 +17,7 @@ function App() {
           <img src={user.picture.large}/>
           <h2>{user.name.first} {user.name.last}</h2>
           <p>{user.email}</p>
-          <h1>This is a change</h1>
+          <h1>This is a demo of REST API</h1>
         </div>
       )}
     </div>

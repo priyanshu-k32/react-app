@@ -10,16 +10,16 @@ function App() {
   };
 
   return (
-    <div>
-      <button onClick={getUser}>Get User</button>
+    <div className="main">
       {user && (
-        <div>
+        <div className="content">
           <img src={user.picture.large}/>
           <h2>{user.name.first} {user.name.last}</h2>
           <p>{user.email}</p>
           <h1>This is a demo of REST API</h1>
         </div>
       )}
+      <button onClick={getUser}>Get User</button>
     </div>
   );
 }
